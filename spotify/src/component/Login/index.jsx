@@ -1,5 +1,7 @@
 import React from 'react';
 import spotifyLogo from '../../images/spotify-logo.png';
+import {Button} from '@material-ui/core';
+import PlayCircleFilledIcon from '@material-ui/icons/PlayCircleFilled';
 import './Login.css';
 const index = () => {
 	return (
@@ -8,7 +10,8 @@ const index = () => {
 			<h2>
 				Welcome to<h1>Spotify</h1>
 			</h2>
-			<button>Login</button>
+			<Button>Login</Button>
+			<PlayCircleFilledIcon />
 		</div>
 	);
 };
