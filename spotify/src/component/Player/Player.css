@@ -1,0 +1,10 @@
+.player {
+	height: 100vh;
+}
+.player_body {
+	display: flex;
+	height: 80vh;
+}
+.player_footer {
+	height: 450px;
+}

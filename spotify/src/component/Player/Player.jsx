@@ -1,9 +1,16 @@
 import React from 'react';
-
-const Player = () => {
+import {Body, Footer, SideBar} from './Children';
+import './Player.css';
+const Player = ({playlist, spotify}) => {
 	return (
-		<div>
-			<h1>HI</h1>
+		<div className="player">
+			<div className="player_body">
+				<SideBar playlist={playlist} />
+				<Body playlist={playlist} spotify={spotify} />
+			</div>
+			<div className="player_footer">
+				<Footer />
+			</div>
 		</div>
 	);
 };
