@@ -2,7 +2,7 @@ import React from 'react';
 import spotifyLogo from '../../images/spotify-logo.png';
 import {accessUrl} from '../../util/spotify';
 import './Login.css';
-const index = () => {
+const Login = () => {
 	return (
 		<div className="login">
 			<img src={spotifyLogo} alt="logo" />
@@ -14,4 +14,4 @@ const index = () => {
 	);
 };
 
-export default index;
+export default Login;
